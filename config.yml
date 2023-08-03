@@ -1,0 +1,18 @@
+settings:
+  monolog:
+    name: log
+    path: starship_data.log
+
+  sanitizer:                                                            # <== sanitize different attribute of a Starship
+    name:                                                               # <== field name of the attribute
+      class: 'William\SevencooksTestTask\Sanitizers\StringSanitizer'    # <== defined sanitizer class namespace for the attribute, optional
+    model:
+      class: 'William\SevencooksTestTask\Sanitizers\StringSanitizer'
+    cargo_capacity:
+      class: 'William\SevencooksTestTask\Sanitizers\NumberSanitizer'
+    crew:
+      class: 'William\SevencooksTestTask\Sanitizers\NumberSanitizer'
+    length:
+      class: 'William\SevencooksTestTask\Sanitizers\NumberSanitizer'
+    max_atmosphering_speed:
+      class: 'William\SevencooksTestTask\Sanitizers\NumberSanitizer'
