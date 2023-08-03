@@ -1,4 +1,4 @@
-<h2 align="center">Starship Commander Test</h2>
+<h2 align="center">🚀 Starship Commander Test 🚀</h2>
 
 ## How to run
 
