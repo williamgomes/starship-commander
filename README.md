@@ -12,7 +12,15 @@ php index.php starships:list <no_of_starships>
 
 2. I also added a logging system which logs data sanitization records. Log file can be checked inside `logs/` folder after running above command at least once.
 
+## Testing
+
+To showcase my skills, i implemented two Unit tests in this application. In order to run that test, please execute below command.
+
+```
+php vendor/bin/phpunit
+```
+
 ## Future improvements
 1. Can move more code from the Command file to separate services.
-2. Implement some unit tests to make sure that my code works all the time.
+2. Implement some more Unit tests to make sure that my code works all the time.
 3. Could add more attributes/endpoints into the application.
